@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HVAC in a Hurry</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
+
+  </head>
+
+  <body>
+    <main class="container">
+
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="black" src="images/black.png" alt="">
+        <img data-image="blue" src="images/blue.png" alt="">
+        <img data-image="red" class="active" src="images/red.png" alt="">
+      </div>
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>PART No. GR1688</span>
+          <h1>Sniggler Board for Acme Cooler</h1>
+          <p>Loren ipson dolor sit amet, consectuer adipsit elit. Morbi finibus pharetra massa, in scelerisque dolor friglilla ut.  Etian vcitae erat facilius sit amet mollis marusi congue.  Curabitur eu voluta metus.</p>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Block Color</span>
+
+            <div class="color-choose">
+              <div>
+                <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                <label for="red"><span></span></label>
+              </div>
+              <div>
+                <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                <label for="blue"><span></span></label>
+              </div>
+              <div>
+                <input data-image="black" type="radio" id="black" name="color" value="black">
+                <label for="black"><span></span></label>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Cable Configuration -->
+          <div class="cable-config">
+            <span>Quantity and Style</span>
+
+            <div class="cable-choose">
+              <button>1-Pack</button>
+              <button>2-Pack</button>
+              <button>2-Pack with Port</button>
+            </div>
+
+            <a href="#">Items silimar to this product</a>
+          </div>
+        </div>
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <span>$12.30</span>
+          <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
